@@ -2,12 +2,13 @@
 using namespace std;
 int main()
 {
-	//²âÊÔÒì³£»úÖÆ
+	//Â²Ã¢ÃŠÃ”Ã’Ã¬Â³Â£Â»ÃºÃ–Ã†
 	char  str1 = '2';
 	char  str2 = '1';
 
 	if (str1 == str2)
 	{
+		//ç‰¹ä½¿æƒ…å½¢
 		cout <<
 			throw runtime_error("345678");
 	}
