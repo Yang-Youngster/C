@@ -29,9 +29,7 @@ int main()
 	std::cout << local_int;
 
 	std::cout << global_int;
-
 	//std::cout << "\n";
-
 	//int sum = 0, value = 0;
 	//   //²âÊÔ¼üÅÌÊäÈë
 	//std::cout << "¼üÅÌÊäÈëÊı¾İ \n";
@@ -52,7 +50,6 @@ int main()
 	std::cout << test_key << std::endl;
 
 	//Ê¹ÓÃµü´úÆ÷
-
 	string name("Luo Yang");
 	auto it = name.begin();
 
