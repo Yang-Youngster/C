@@ -8,8 +8,7 @@ int main()
 
 	if (str1 == str2)
 	{
-		cout <<
-			throw runtime_error("345678");
+		throw runtime_error("345678");
 	}
 	else
 	{
