@@ -2,4 +2,4 @@
 #include <iostream>
 #include "Sales_item.h"
 #include "Sales_data.h"
-using std::string;
+using namespace std;

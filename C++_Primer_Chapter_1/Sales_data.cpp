@@ -18,11 +18,13 @@ Sales_data add(const Sales_data& sa, const Sales_data& sb)
 	temp.combine(sb);
 	return temp;
 };
+
 std::ostream& print(std::ostream& cout, const Sales_data& tmep)
 {
 	cout << " 编号: " << tmep.ISBN << "数量: " << tmep.amount << "总价: " << tmep.totalPrice;
 	return cout;
 };
+
 std::istream& read(std::istream& cin, Sales_data& temp)
 {
 	double price = 0.0;
