@@ -1,12 +1,27 @@
 #include "book.h"
 
-book book::create(const std::string& name, const std::string& author, const std::string& isbn, const double& price)
+book book::create()
 {
+	std::string name;
+	std::string author;
+	std::string isbn;
+	double price;
+	//º¸≈Ã ‰»Î∂‘œÛ
+	std::cout << "Enter book name: ";
+	std::cin >> name;
+	std::cout << "Enter author: ";
+	std::cin >> author;
+	std::cout << "Enter ISBN: ";
+	std::cin >> isbn;
+	std::cout << "Enter price: ";
+	std::cin >> price;
 	return book(name, author, isbn, price);
 }
 
-void show()
+void book::show()
 {
 	std::cout << "Book name: " << name << std::endl;
-	std:: << "Book name: " << name << std::endl;
+	std::cout << "Author: " << author << std::endl;
+	std::cout << "ISBN: " << isbn << std::endl;
+	std::cout << "Price: " << price << std::endl;
 }
