@@ -2,7 +2,6 @@
 using namespace std;
 int main()
 {
-	//²âÊÔÒì³£»úÖÆ
 	char  str1 = '2';
 	char  str2 = '1';
 
