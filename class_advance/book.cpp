@@ -1,5 +1,8 @@
 #include "book.h"
 
+book::book(const std::string& name, const std::string& author, const std::string& isbn, const double& price) :
+	name(name), author(author), isbn(isbn), price(price) {
+}
 book book::create()
 {
 	std::string name;

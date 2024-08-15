@@ -12,7 +12,6 @@ user user::create()
 
 	return user(name, books);
 }
-
 void user::show()
 {
 	std::cout << "Name: " << this->name << std::endl;

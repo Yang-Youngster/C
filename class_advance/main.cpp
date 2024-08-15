@@ -4,8 +4,7 @@
 int main()
 {
 	//²âÊÔ
-	user temp;
-	temp.create();
+	user temp = temp.create();
 	temp.show();
 	return 0;
 }
